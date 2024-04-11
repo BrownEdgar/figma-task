@@ -6,6 +6,7 @@ export default function App() {
         <div>
             <h1>Hayk</h1>
             <h2>Voskanyan</h2>
+            <img src="./image1.png" alt="" />
         </div>
     )
 
