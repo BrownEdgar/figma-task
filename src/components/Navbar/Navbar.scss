@@ -12,5 +12,11 @@
     .active{
       color: #dc2567;;
     }
+    li{
+      transition: 0.4s;
+    }
+    li:hover {
+      transform: translate(-15px, -5px);
+    }
   }
 }

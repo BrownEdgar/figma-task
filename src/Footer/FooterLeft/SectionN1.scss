@@ -1,3 +1,5 @@
+@import '/src/sass/colors';
+
 .Footer__left-section {
   img{
     margin-bottom: 12px;
@@ -17,9 +19,17 @@
     gap: 35px;
     margin-top: 20px;
     font-size: 30px;
-    i{
+    a{
       height: 14px;
       width: 16px;
+      color: $grey-700;
+      transition: 0.2s;
     }
+    a:hover{
+      transform: scale(1.2);
+      margin: 0px 10px 0px 0px;
+      color: $main-black;
+     }
+    
   }
 }

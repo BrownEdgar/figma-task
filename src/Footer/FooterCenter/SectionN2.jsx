@@ -18,7 +18,7 @@ export default function SectionN2() {
   )
 
   return (
-      <div className='Footer_centr'>
+      <div className='Footer_centr-section'>
          <RouterProvider router={router} />
       </div>
    )

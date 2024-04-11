@@ -1,6 +1,6 @@
 @import "/src/sass/colors";
 
-.Footer_centr{
+.Footer_centr-section{
     margin-top: 35px;
     height: 232px;
     width: 248px;
@@ -9,5 +9,6 @@
         position: absolute;
         top: -45px;
         color: $grey-700;
+        font-size: 18px;
     }
 }
