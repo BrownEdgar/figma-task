@@ -5,4 +5,9 @@
     background-color:$body-background;
     margin-top: 50px ;
     padding: 65px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
 }

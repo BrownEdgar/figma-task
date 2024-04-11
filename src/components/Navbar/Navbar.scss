@@ -1,0 +1,16 @@
+@import "../../sass//colors";
+
+.Footer__nav{
+  nav{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    a{
+      color: $main-black;
+      font-weight: 600;
+    }
+    .active{
+      color: #dc2567;;
+    }
+  }
+}
