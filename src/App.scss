@@ -1,1 +1,8 @@
-@import "./sass//colors";
+@import "./sass/colors";
+@import "./sass/mixins";
+.Footer{
+    height: 481px;
+    background-color:$body-background;
+    margin-top: 50px ;
+    padding: 65px 40px;
+}

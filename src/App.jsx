@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.scss";
+import SectionN1 from "./Footer/SectionN1";
 
 export default function App() {
     return (
-        <div>
-            <h1>Hayk</h1>
-            <h2>Voskanyan</h2>
-            <img src="./image1.png" alt="" />
-        </div>
+          <footer className="Footer">
+            <SectionN1/>
+          </footer>
     )
 
 }
