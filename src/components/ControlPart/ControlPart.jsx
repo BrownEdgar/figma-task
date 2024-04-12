@@ -5,20 +5,20 @@ import './ControlPart.scss'
 export default function ControlPart() {
   const [data, setData] = useState([
     {
-      icon: '../public/Profile.svg',
+      icon: '../public/icons/Profile.svg',
       alt: 'yellow two persons icon',
       partName: 'Smart search',
       content: 'The algorithm will independently select contacts according to your request'
     },
     {
-      icon: '../public/Tick.svg',
-      alt: '',
+      icon: '../public/icons/Tick.svg',
+      alt: 'green check mark icon',
       partName: 'Instant use',
       content: 'Find out who is next to you right now and start communicating now'
     },
     {
-      icon: '../public/Shield.svg',
-      alt: '',
+      icon: '../public/icons/Shield.svg',
+      alt: 'red check mark icon',
       partName: 'No spam',
       content: 'The necessary contacts are just a click away across the country'
     }
