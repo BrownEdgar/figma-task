@@ -21,7 +21,7 @@ export default function SectionN3() {
 
       <div className='Footer__right-section-btns' onClick={handleAppClick}>
         <button className='Footer__right-section-btn1'>
-          <i class="bi bi-apple"></i>
+          <i className="bi bi-apple"></i>
           <div className='btn1__text'>
             <p>Upload to</p>
             <p>App Store</p>

@@ -11,6 +11,7 @@
   &-btns{
     display: flex;
     gap:22px;
+    margin-top: 20px
   }
   &-btn1,&-btn2 {
    @include btnStyle;
