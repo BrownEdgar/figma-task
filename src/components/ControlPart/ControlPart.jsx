@@ -3,7 +3,7 @@ import './ControlPart.scss'
 
 
 export default function ControlPart() {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       icon: '../public/icons/Profile.svg',
       alt: 'yellow two persons icon',
