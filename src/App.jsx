@@ -4,8 +4,10 @@ import FooterGroup from "./Footer/FooterReGroup/FooterGroup";
 
 
 export default function App() {
-    return (
-      <FooterGroup/>
-    )
+  return (
+    <div className="App">
+      <FooterGroup />
+    </div>
+  )
 
 }

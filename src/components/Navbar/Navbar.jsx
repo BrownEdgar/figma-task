@@ -1,31 +1,33 @@
 import React from 'react'
 import './Navbar.scss'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { aboutPath, backPath, contactPath, regisPath } from '../../routes'
 
 export default function Navbar() {
   return (
-   <>
-    <div className='Footer__nav'>
-      <nav>
-        <li>
-        <NavLink to='/'>Menu</NavLink>
-        </li>
-        <li>
-          <NavLink to={regisPath}>Registration</NavLink>
-        </li>
-        <li>
-          <NavLink to={aboutPath}>About the company</NavLink>
-        </li>
-        <li>
-          <NavLink  to={contactPath}>Contacts</NavLink>
-        </li>
-        <li>
-          <NavLink  to={backPath}>Feedback</NavLink>
-        </li>
-      </nav>
-    </div>
-   </>
+    <>
+      <div className='Footer__nav'>
+        <nav>
+          <ul>
+            <li>
+              <Link to='/'>Menu</Link>
+            </li>
+            <li>
+              <Link to={regisPath}>Registration</Link>
+            </li>
+            <li>
+              <Link to={aboutPath}>About the company</Link>
+            </li>
+            <li>
+              <Link to={contactPath}>Contacts</Link>
+            </li>
+            <li>
+              <Link to={backPath}>Feedback</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </>
   )
 }
 

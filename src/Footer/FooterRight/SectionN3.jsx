@@ -4,11 +4,11 @@ import './SectionN3.scss'
 
 export default function SectionN3() {
 
-  const handleGoogleClick = (e)=>{
+  const handleGoogleClick = () => {
     window.open('https://play.google.com/', '_blank');
   }
 
-  const handleAppClick =()=>{
+  const handleAppClick = () => {
     window.open('https://www.apple.com/app-store/', '_blank')
   }
 
