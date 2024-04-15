@@ -1,0 +1,40 @@
+@import '../../sass/colors';
+
+.HeaderSection {
+    &__Register {
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        >h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: $grey-10;
+        }
+
+        >p {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: $grey-10;
+            margin: 10px 0 40px;
+        }
+
+        >button {
+            width: 350px;
+            height: 59px;
+            background-color: $botton-background;
+            border-radius: 75.5px;
+            color: $grey-10;
+            padding: 10px 20px;
+            border: none;
+            margin-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+
+            &:last-child {
+                border: 1px solid $grey-10;
+                background-color: transparent;
+                margin-right: 0;
+            }
+        }
+    }
+}

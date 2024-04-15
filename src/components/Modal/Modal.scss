@@ -1,0 +1,80 @@
+@import '../../sass/colors';
+
+.wrapper_modal {
+  width: 1440px;
+  background-color: rgba($color: $main-black, $alpha: .6);
+  position: fixed;
+  top: 0;
+  left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  z-index: 999;
+
+  .Modal {
+    margin: 150px auto;
+    background-image: url(./Images/form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 800px;
+    border-radius: 25px;
+
+    &__CloseIcon {
+      font-size: 25px;
+      display: flex;
+      justify-content: end;
+      cursor: pointer;
+      padding: 15px;
+    }
+
+    &__Content {
+      padding: 15px;
+      width: 500px;
+      margin: 0 auto;
+
+      >h1 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      &-Form {
+        display: flex;
+        flex-direction: column;
+
+        >input {
+          margin-bottom: 8px;
+          padding: 8px;
+          border-radius: 15px;
+          font-size: 17px;
+          background-color: transparent;
+          border: 1px solid $grey-700;
+        }
+
+        >label {
+          font-size: 20px;
+          color: $main-black;
+          text-align: center;
+        }
+      }
+
+      &-btn {
+        text-align: center;
+        margin-top: 15px;
+
+        >button {
+          width: 200px;
+          padding: 5px;
+          font-size: 20px;
+          color: $grey-700;
+          border: 1px solid $grey-700;
+          border-radius: 15px;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}

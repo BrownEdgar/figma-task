@@ -1,10 +1,14 @@
-import React from 'react'
-import './App.scss'
+import HeaderSlider from './components/HeaderSlider/HeaderSlider';
 
-export default function App() {
+function App() {
+
   return (
-    <div className='App'>
-
+    
+    <div>
+      <HeaderSlider />
     </div>
-  )
+    
+  );
 }
+
+export default App;
