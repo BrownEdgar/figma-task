@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.scss";
-import FooterGroup from "./Footer/FooterReGroup/FooterGroup";
+import FindPerfect from "./FindPerfect/FindPerfect";
 
 
 export default function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <FindPerfect/>
     </div>
   )
 
