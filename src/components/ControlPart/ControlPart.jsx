@@ -5,18 +5,21 @@ import './ControlPart.scss'
 export default function ControlPart() {
   const [data] = useState([
     {
+      id: 1,
       icon: '../public/icons/Profile.svg',
       alt: 'yellow two persons icon',
       partName: 'Smart search',
       content: 'The algorithm will independently select contacts according to your request'
     },
     {
+      id: 2,
       icon: '../public/icons/Tick.svg',
       alt: 'green check mark icon',
       partName: 'Instant use',
       content: 'Find out who is next to you right now and start communicating now'
     },
     {
+      id: 3,
       icon: '../public/icons/Shield.svg',
       alt: 'red check mark icon',
       partName: 'No spam',
@@ -30,7 +33,7 @@ export default function ControlPart() {
         {
           data.map(elm => {
             return (
-              <div className='icon'>
+              <div className='icon' key={elm.id}>
                 <img src={elm.icon} alt={elm.alt} />
                 <h3>{elm.partName}</h3>
                 <p>{elm.content}</p>

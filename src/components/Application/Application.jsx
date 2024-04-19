@@ -5,12 +5,12 @@ export default function Application() {
   return (
     <div className="Application">
       <div>
-        <img src="./image1.svg" className='Application__phoneImage' />
+        <img src="./icons/image1.svg" className='Application__phoneImage' />
       </div>
       <div className="Application-items">
         <h1 className="Application__title">
           Get the app!
-          <img src="./image2.svg" />
+          <img src="./icons/image2.svg" />
         </h1>
 
         <p>
@@ -27,7 +27,7 @@ export default function Application() {
           <button>
             <p>Available in</p>
             <p>
-              <img className="google" src="./logo.svg" />
+              <img className="google" src="./icons/logo.svg" />
               <span>Google Play</span>
             </p>
           </button>
